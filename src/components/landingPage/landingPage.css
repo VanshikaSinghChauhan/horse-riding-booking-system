@@ -1,0 +1,78 @@
+.heading-container {
+    max-width: 500px; /* Example max-width */
+    padding: 5px; 
+    text-align: left; /* Center text horizontally */
+    position: absolute;
+    top: 20%; /* Adjust top position as needed */
+    left: 5%; /* Adjust left position as needed */
+}
+
+.heading-text{
+    font-family: 'Cinzel', serif; /* Font family Cinzel */
+    font-size: 50px; /* Font size 79.38 pixels */
+    letter-spacing: 0.99px; /* Stroke space 0.99 pixels */
+    color: #B6C7AA; /* Color in hex code B6C7AA */
+    -webkit-text-stroke: 0.5px black; /* Thin black border */
+    text-stroke: 0.5px black;
+    font-weight: bold; /* Bold font weight */
+    margin: 0; /* Remove default margin */
+    line-height: 0.99;
+    font-weight: 50;
+}
+
+.quote-container {
+    max-width: 400px; /* Example max-width */
+    padding: 20px; 
+    text-align: left; /* Center text horizontally */
+    position: absolute;
+    top: 62%; /* Adjust top position as needed */
+    left: 2%; /* Adjust left position as needed */
+}
+
+.quote-text {
+    font-family: 'Cinzel'; /* Cinzel font */
+    font-size: 20px; /* Font size */
+    font-weight: bold; /* Bold font weight */
+    color: #ffffff; /* White text color */
+    margin: 0; /* Remove default margin */
+}
+
+.container {
+    position: relative; /* Ensure the container is relatively positioned */
+    width: 80%; /* Adjust as needed */
+    height: 100vh; /* Adjust as needed */
+}
+
+.button {
+    background-color: rgba(255, 255, 255, 0.25); /* White background with 25% opacity */
+    border-radius: 49.61px; /* Rounded border */
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); /* Drop shadow with blur 4 and Y:4 */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 20px; /* Adjust font size as needed */
+    color: #000; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    outline: none; /* Remove outline */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    position: absolute; /* Absolute positioning */
+    bottom: 50px; /* Position 20px from the bottom */
+    left: 50px; /* Position 20px from the left */
+    font-weight: bold; 
+    font-family: 'Cinzel', serif;
+    
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+ 
+

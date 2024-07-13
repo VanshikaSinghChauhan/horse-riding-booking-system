@@ -1,0 +1,13 @@
+#datetime-picker{
+    width: auto;
+}
+  
+#datetime-picker label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+  }
+  
+    
+  

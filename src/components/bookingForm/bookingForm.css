@@ -1,0 +1,107 @@
+.booking-form-container {
+    display: flex;
+align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+
+  .glass-effect {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Apply blur effect for Safari */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+
+  
+  .title-container {
+    text-align: center;
+    /* margin-bottom: 20px;  */
+  }
+  
+  .booking-title {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    color: black;
+    -webkit-text-stroke: 0.5px black; /* Thin black border */
+    text-stroke: 0.5px black;
+  }
+  
+  .form-container {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 80%;
+    padding: 8px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.8); /* White with 80% opacity */
+    border: none;
+    border-bottom: 5px solid #B6C7AA; /* Increased bottom border width and color */
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-bottom-color: #007bff; /* Example focus color */
+  }
+  
+  .button {
+    background-color: rgba(182, 199, 170, 0.8); /* #B6C7AA with 80% opacity */
+    color: white; /* Text color */
+    padding: 10px 20px; 
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-family: 'Cinzel', serif; /* Font family */
+    font-weight: bold; /* Bold text */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+   margin-bottom: -40px;
+  }
+  
+  .button:hover {
+    background-color: rgba(182, 199, 170, 1); /* Full opacity on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Slightly larger shadow on hover */
+  }
+
+  /* bookingForm.css or relevant CSS file */
+.error {
+  color: red;
+}
+
+.error-horse{
+  position: absolute;
+  right: 20%;
+}
+
+.error-time{
+  position:relative;
+  bottom: 20px;
+}
+
+
+
+  
+  

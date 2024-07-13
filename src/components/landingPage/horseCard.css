@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.horse-card {
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 400px;
+  text-align: center;
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container img {
+  max-width: 80%;
+  border-radius: 20px;
+  height: auto;
+  display: block;
+margin-top: 20px;
+}
+
+.horse-name {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 44px;
+  font-weight: bold;
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.2em;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  font-size: 16px;
+  background-color: #A0B29C;
+  opacity: 0.8;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+ margin-top: 20px;
+}
+
+.nav-button:hover {
+  opacity: 1;
+}
+
+.prev-button {
+  left: 62px;
+}
+
+.next-button {
+  right: 62px;
+}
+
+/* src/components/horseCard.css */
+.check-out-text {
+  font-weight: bold;
+  color: white;
+  font-family: 'Cinzel', serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-text {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.horseHeading{
+  color: #929F88;
+}
+.horse-card .image-container img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.horse-card .image-container img:hover {
+  transform: scale(1.05);
+}
+
+.horse-card .image-container img.selected {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+  border: 3px solid #FFD700;
+}
+
